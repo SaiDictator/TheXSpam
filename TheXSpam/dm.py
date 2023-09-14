@@ -1,4 +1,4 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝑨𝒍𝒕𝒓𝒐𝒏
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝑫𝒆𝒂𝒅
 # 𝑨𝒍𝒍 𝑹𝒊𝒈𝒉𝒕𝒔 𝑹𝒆𝒔𝒆𝒓𝒗𝒆𝒅
 
 
@@ -22,13 +22,13 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in THE_ALTS:
-                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ 𝐃𝐄𝐀𝐃 x`")
           elif id in SUDO_USERS:
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
               counts = int(alt[1])
               await message.reply_text("`ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ`")
-              for _ in range(counts):
+              for _ in range(counts): 
                     reply = choice(RAID)
                     msg = f"{reply}"
                     await xspam.send_message(id, msg)
@@ -40,7 +40,7 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in THE_ALTS:
-                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ 𝗗𝗘𝗔𝗗 x`")
           elif id in SUDO_USERS:
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
@@ -63,7 +63,7 @@ async def dmspam(client: Client, message: Message):
     if  len(alt) == 4:
         uid = int(alt[2])
         if uid in THE_ALTS:
-            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ 𝗗𝗘𝗔𝗗 x`")
         elif uid in SUDO_USERS:
             await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
         else:
@@ -77,7 +77,7 @@ async def dmspam(client: Client, message: Message):
         id = message.reply_to_message.from_user.id
 
         if id in THE_ALTS:
-            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ 🇩 🇪 🇦 🇩  x`")
         elif id in SUDO_USERS:
             await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
         else:
@@ -89,4 +89,4 @@ async def dmspam(client: Client, message: Message):
                 await asyncio.sleep(0.3)
 
     else:
-        await message.reply_text("😈 ᴜsᴀɢᴇ:\n .dmspam 13 <ᴜꜱᴇʀ ɪᴅ> Altron\n .dmspam 13 Altron <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>")
+        await message.reply_text("😈 ᴜsᴀɢᴇ:\n .dmspam 13 <ᴜꜱᴇʀ ɪᴅ> Dead\n .dmspam 13 Dead <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>")
