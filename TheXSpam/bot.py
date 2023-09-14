@@ -1,4 +1,4 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝑨𝒍𝒕𝒓𝒐𝒏
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 𝑩𝒚 𝐃𝐞𝐚𝐝
 # 𝑨𝒍𝒍 𝑹𝒊𝒈𝒉𝒕𝒔 𝑹𝒆𝒔𝒆𝒓𝒗𝒆𝒅
 
 import sys
@@ -11,12 +11,12 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 
-ALT = f"""❖ 𝐏𝐘 𝐀𝐋𝐓𝐑𝐎𝐍 ❖
+ALT = f"""❖ 𝗗𝗘𝗔𝗗 𝗫 ❖
 
 ➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.11.1`
 ➠ **ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ** : `1.4.16`
 ➠ **xꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `3.3`
-➠ **ᴜᴘᴅᴀᴛᴇꜱ** : @TheAltron\n"""
+➠ **ᴜᴘᴅᴀᴛᴇꜱ** : @Saif_Dictator\n"""
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], ["/", ".", "!"]))
@@ -25,7 +25,7 @@ async def ping(_, e: Message):
       Fuk = await e.reply("**Pong !!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"◇ ᴛʜᴇ ᴀʟᴛʀᴏɴ\n◇ ᴘɪɴɢ: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `3.3`")
+      await Fuk.edit_text(f"◇ ᴛʜᴇ 𝐃𝐄𝐀𝐃\n◇ 𝗗𝗘𝗔𝗗: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `3.3`")
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["alive"], ["/", ".", "!"]))
