@@ -296,7 +296,7 @@ RAID = [
 
 
 THE_ALTS = [6585111267, 6697540778]
-GROUP = [,@DAEDX_HELP/8"]
+GROUP = [,@DAEDX_HELP, "@Saif_Dictator"]
 
 
 PORM = [
