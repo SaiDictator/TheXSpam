@@ -1,4 +1,4 @@
-from config import API_ID, API_HASH, SESSIONS
+0from config import API_ID, API_HASH, SESSIONS
 from pyrogram import Client, idle
 
 
@@ -10,7 +10,7 @@ for SESSION in SESSIONS:
             session_name=SESSION,
             api_id=API_ID,
             api_hash=API_HASH,
-            plugins=dict(root="TheXSpam"),
+            plugins=dict(root="TheDeadxSpam"),
         )
         CLIENTS.append(client)
 
@@ -26,5 +26,5 @@ if __name__ == "__main__":
         except Exception as e:
             print(e)
 
-    print("💞YOUR PY-ALTRON SPAM USERBOTS DEPLOYED SUCCESSFULLY 💞")
+    print("💘🌺🌺💞YOUR DEAD X SPAM USERBOTS DEPLOYED SUCCESSFULLY 🤡💞")
     idle()
