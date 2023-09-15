@@ -4,8 +4,8 @@ from data import THE_SAIF
 
 #----------------------------------- REQUIRED CODES --------------------------------------#
 
-API_ID = int(getenv("API_ID", "25899888)
-API_HASH = getenv("API_HASH", "125b1d5e3277ab423dc98bbab94f9941)
+API_ID = intgetenv("API_ID", "25899888")
+API_HASH = getenv("API_HASH", "125b1d5e3277ab423dc98bbab94f9941")
 SESSION1 = getenv("SESSION")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/dafe713ade60212c37933.jpg")
 OWNER_ID = int(getenv("OWNER_ID", "6697540778"))
